@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/grocery_store_management_react/static/css/main.1a7deadc.css",
+    "main.js": "/grocery_store_management_react/static/js/main.b2b6cdd2.js",
+    "static/js/787.78ac230d.chunk.js": "/grocery_store_management_react/static/js/787.78ac230d.chunk.js",
+    "static/media/logo.jpg": "/grocery_store_management_react/static/media/logo.d3ab2cb3c643e2284e51.jpg",
+    "static/media/praful.jpg": "/grocery_store_management_react/static/media/praful.52a12b5e351020a05e65.jpg",
+    "static/media/mandar.jpg": "/grocery_store_management_react/static/media/mandar.db03a6e56d7ea612d9f4.jpg",
+    "static/media/prerana.jpg": "/grocery_store_management_react/static/media/prerana.aa07f4a91475d9c785c2.jpg",
+    "static/media/picon.jpg": "/grocery_store_management_react/static/media/picon.8ce2f31e200f6d9b09da.jpg",
+    "static/media/vikram.jpg": "/grocery_store_management_react/static/media/vikram.14f38ecd6fc6cce28d1f.jpg",
+    "index.html": "/grocery_store_management_react/index.html",
+    "main.1a7deadc.css.map": "/grocery_store_management_react/static/css/main.1a7deadc.css.map",
+    "main.b2b6cdd2.js.map": "/grocery_store_management_react/static/js/main.b2b6cdd2.js.map",
+    "787.78ac230d.chunk.js.map": "/grocery_store_management_react/static/js/787.78ac230d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a7deadc.css",
+    "static/js/main.b2b6cdd2.js"
+  ]
+}
