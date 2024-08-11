@@ -22,6 +22,21 @@ import Admins from "./pages/Admins";
 import AddAdmin from "./pages/admins/AddAdmin";
 import AddProduct from "./product/AddProduct"
 import Stock from "./pages/Stock";
+const express = require('express');
+const app = express();
+
+// Use the PORT environment variable, or default to 3000 if not set
+const PORT = process.env.PORT || 3000;
+
+// Define a simple route
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
+
+// Start the server
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(Server is running on port ${PORT});
+});
 function App() {
   return (
     <div className="App">
