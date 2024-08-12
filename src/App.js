@@ -22,8 +22,6 @@ import Admins from "./pages/Admins";
 import AddAdmin from "./pages/admins/AddAdmin";
 import AddProduct from "./product/AddProduct"
 import Stock from "./pages/Stock";
-const express = require('express');
-const app = express();
 function App() {
   return (
     <div className="App">
