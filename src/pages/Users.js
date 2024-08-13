@@ -14,12 +14,12 @@ useEffect(()=>{
 }, []);  
 
 const loadUsers=async ()=>{
-    const result=await axios.get("http://localhost:7777/users"); //link from postman get method
+    const result=await axios.get("http://radiant-unity-production.up.railway.app/users"); //link from postman get method
     setUsers(result.data);
 };
 
 const deleteUser=async(id)=>{
-  await axios.delete(`http://localhost:7777/user/${id}`)
+  await axios.delete(`http://radiant-unity-production.up.railway.app/user/${id}`)
   loadUsers();
 };
 
