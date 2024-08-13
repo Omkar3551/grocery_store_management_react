@@ -27,7 +27,7 @@ export default function AddUser() {
     
     const Signup=async (user)=>{
       const response = await axios.
-          post("/user/adduser", user);
+          post("https://radiant-unity-production.up.railway.app/user/adduser", user);
       return response.data();
   }
 
