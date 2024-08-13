@@ -32,7 +32,7 @@ export default function EditUser() {
   };                //
 
   const loadUser =async ()=>{
-    const result=await axios.get(`http://localhost:7777/user/${id}`) //
+    const result=await axios.get(`http://radiant-unity-production.up.railway.app/user/${id}`) //
     setUser(result.data)
 }
   return (
