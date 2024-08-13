@@ -27,7 +27,7 @@ export default function EditUser() {
 
   const onSubmit = async (e) => {
     e.preventDefault(); //not show data in address bar 
-    await axios.put(`http://localhost:7777/user/${id}`, user);  //put & `` 
+    await axios.put(`http://radiant-unity-production.up.railway.app/user/${id}`, user);  //put & `` 
     navigate("/user") //go data to home due to "/"
   };                //
 
