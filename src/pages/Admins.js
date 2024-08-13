@@ -14,7 +14,7 @@ export default function () {
 }, []); 
 
 const loadAdmins=async ()=>{
-  const result=await axios.get("radiant-unity-production.up.railway.app/admins"); //link from postman get method
+  const result=await axios.get("https://radiant-unity-production.up.railway.app/admins"); //link from postman get method
   setAdmins(result.data);
 };
 
