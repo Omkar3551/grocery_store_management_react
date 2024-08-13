@@ -54,7 +54,7 @@ const onInputChange = (e) => {
 // };
 
 const deleteProduct=async(id)=>{
-  await axios.delete(`http://localhost:7777/product/${id}`)
+  await axios.delete(`http://radiant-unity-production.up.railway.app/product/${id}`)
   loadProducts();
 };
 
