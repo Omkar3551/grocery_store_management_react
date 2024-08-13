@@ -20,7 +20,7 @@ export default function AddUser() {
 
   const onSubmit = async (e) => {
     e.preventDefault(); //not show data in address bar 
-    await axios.post("http://localhost:7777/user", user);
+    await axios.post("https://radiant-unity-production.up.railway.app/user", user);
     navigate("/user") //go data to home due to "/"
 
 
