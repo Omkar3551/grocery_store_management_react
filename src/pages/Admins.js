@@ -14,12 +14,12 @@ export default function () {
 }, []); 
 
 const loadAdmins=async ()=>{
-  const result=await axios.get("http://localhost:7777/admins"); //link from postman get method
+  const result=await axios.get("radiant-unity-production.up.railway.app/admins"); //link from postman get method
   setAdmins(result.data);
 };
 
 const deleteAdmin=async(id)=>{
-  await axios.delete(`http://localhost:7777/admin/${id}`)
+  await axios.delete(`http://radiant-unity-production.up.railway.app/admin/${id}`)
   loadAdmins();
 };
 
