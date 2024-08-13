@@ -21,7 +21,7 @@ export default function AddAdmin() {
 
   const onSubmit = async (e) => {
     e.preventDefault(); //not show data in address bar 
-    await axios.post("http://localhost:7777/admin", admin); //submittion of form
+    await axios.post("radiant-unity-production.up.railway.app", admin); //submittion of form
     navigate("/admin") //go data to home due to "/"
   };
 
