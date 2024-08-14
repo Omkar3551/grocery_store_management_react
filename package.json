@@ -31,7 +31,7 @@
     "yup": "^1.0.2"
   },
   "scripts": {
-   "develop": "react-scripts start",
+   "develop": "npx http-server ./dist",
     "start": "react-scripts start",
     "build": "CI=false react-scripts build",
     "test": "react-scripts test",
