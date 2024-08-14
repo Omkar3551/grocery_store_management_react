@@ -21,7 +21,7 @@ export default function AddAdmin() {
 
   const onSubmit = async (e) => {
     e.preventDefault(); //not show data in address bar 
-    await axios.post("http://radiant-unity-production.up.railway.app/admin", admin); //submittion of form
+    await axios.post("https://springbootbackend-production-555f.up.railway.app", admin); //submittion of form
     navigate("/admin") //go data to home due to "/"
   };
 
