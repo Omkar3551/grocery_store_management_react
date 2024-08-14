@@ -34,7 +34,7 @@ export default function SummaryPage() {
 }, []);
 
 const loadProducts=async ()=>{
-  const result=await axios.get("https://radiant-unity-production.up.railway.app/products"); //link from postman get method
+  const result=await axios.get("https://springbootbackend-production-555f.up.railway.app/products"); //link from postman get method
   setProducts(result.data);
 };
 
