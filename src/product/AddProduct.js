@@ -19,7 +19,7 @@ export default function AddProduct() {
 
   const onSubmit = async (e) => {
     e.preventDefault(); //not show data in address bar 
-    await axios.post("http://radiant-unity-production.up.railway.app/product", product);
+    await axios.post("https://springbootbackend-production-555f.up.railway.app/product", product);
     navigate("/products") //go data to home due to "/"
   };
 
