@@ -32,7 +32,7 @@ export default function EditUser() {
   };                //
 
   const loadUser =async ()=>{
-    const result=await axios.get(`http://radiant-unity-production.up.railway.app/user/${id}`) //
+    const result=await axios.get(`http://springbootbackend-production-555f.up.railway.app/user/${id}`) //
     setUser(result.data)
 }
   return (
