@@ -27,7 +27,7 @@ export default function AddUser() {
     
     const Signup=async (user)=>{
       const response = await axios.
-          post("https://radiant-unity-production.up.railway.app/user/adduser", user);
+          post("https://springbootbackend-production-555f.up.railway.app/user/adduser", user);
       return response.data();
   }
 
