@@ -30,7 +30,7 @@ export default function () {
 }, []);
 
 const loadProducts=async ()=>{
-  const result=await axios.get("https://radiant-unity-production.up.railway.app/products"); //link from postman get method
+  const result=await axios.get("https://springbootbackend-production-555f.up.railway.app/products"); //link from postman get method
   setProducts(result.data);
 };
 
@@ -54,7 +54,7 @@ const onInputChange = (e) => {
 // };
 
 const deleteProduct=async(id)=>{
-  await axios.delete(`http://radiant-unity-production.up.railway.app/product/${id}`)
+  await axios.delete(`http://springbootbackend-production-555f.up.railway.app/product/${id}`)
   loadProducts();
 };
 
