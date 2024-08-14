@@ -14,12 +14,12 @@ useEffect(()=>{
 }, []);  
 
 const loadUsers=async ()=>{
-    const result=await axios.get("http://radiant-unity-production.up.railway.app/users"); //link from postman get method
+    const result=await axios.get("http://springbootbackend-production-555f.up.railway.app/users"); //link from postman get method
     setUsers(result.data);
 };
 
 const deleteUser=async(id)=>{
-  await axios.delete(`http://radiant-unity-production.up.railway.app/user/${id}`)
+  await axios.delete(`http://springbootbackend-production-555f.up.railway.app/user/${id}`)
   loadUsers();
 };
 
