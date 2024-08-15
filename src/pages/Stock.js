@@ -52,7 +52,7 @@ export default function () {
   // };
 
   const deleteProduct = async (id) => {
-    await axios.delete(`http://springbootbackend-production-555f.up.railway.app/product/${id}`);
+    await axios.delete(`https://springbootbackend-production-555f.up.railway.app/product/${id}`);
     loadProducts();
   };
 
