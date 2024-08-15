@@ -19,7 +19,7 @@ const loadAdmins=async ()=>{
 };
 
 const deleteAdmin=async(id)=>{
-  await axios.delete(`http://springbootbackend-production-555f.up.railway.app/admin/${id}`)
+  await axios.delete(`https://springbootbackend-production-555f.up.railway.app/admin/${id}`)
   loadAdmins();
 };
 
